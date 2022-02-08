@@ -21,6 +21,24 @@ header,form{
     justify-content: center;
     align-items: center;
 }
+.con{
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    
+}
+.code{
+    min-height: 20vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 50%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
 form input, form button{
 
     padding: 0.5rem;
@@ -126,4 +144,21 @@ select{
 .select:hover::after{
     background: white;
     color: #AAAE7F ;
+}
+footer{
+    background: #AAAE7F;
+    min-width: 20%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    opacity: 90%;
+    right: 0;
+}
+a{
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
 }
